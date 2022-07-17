@@ -1,0 +1,44 @@
+.pricing-wrapper {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+
+  p {
+    color: #8f95a5;
+  }
+
+  .pricings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+
+    @media (max-width: 1100px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.pricing-item {
+  text-align: start;
+
+  img {
+    height: 50%;
+    margin-top: 4rem;
+  }
+
+  button {
+    background-color: #eeeeee;
+    border: none;
+    padding: 1rem;
+    font-size: 2.2rem;
+    margin-top: 4rem;
+    cursor: pointer;
+  }
+
+  @media (max-width: 1100px) {
+    text-align: center;
+  }
+}

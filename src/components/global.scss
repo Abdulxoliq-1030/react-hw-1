@@ -1,0 +1,21 @@
+* {
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 68%;
+}
+
+section {
+  padding: 1rem 5rem;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  section {
+    padding: 0.7rem 3rem;
+  }
+}
